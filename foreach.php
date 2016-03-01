@@ -5,6 +5,7 @@ foreach($things as $thing){
         echo 'This is a  ' . gettype($thing) . " ". $thing . PHP_EOL;
     }
 }
+
 foreach ($things as $thing) {
     if (is_scalar($thing)) {
         echo "This is a scalar {$thing}\n";
