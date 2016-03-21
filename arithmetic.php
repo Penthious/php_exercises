@@ -57,9 +57,9 @@ function remainder($a, $b) {
     }
 }
 function throwErrorMessage($a, $b, $error ='number'){
-    if (error == 'number') {
+    if ($error == 'number') {
         return "ERROR: Both arguments must be numbers \$a was {$a} and \$b was {$b}\n";
-    }else if ($ellor == 'devisor') {
+    }else if ($error == 'devisor') {
         return "Cannot divide by zero, \$a was {$a} and \$b was {$b}\n";
     }
 
